@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="tx2tx2.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <h2>Trương Đức Hiếu</h2>
+        </header>
+        <div>
+            <ul>
+                <li><a href="List.aspx">Danh sách chuyến đi</a></li>
+                <li><a href="Add.aspx">Thêm chuyến đi</a></li>
+            </ul>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <h2>Kiểm tra số 2</h2>
+        </footer>
+    </form>
+</body>
+</html>
